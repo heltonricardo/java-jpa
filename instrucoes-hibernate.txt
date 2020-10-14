@@ -1,0 +1,11 @@
+Fazer download do Hibernate:
+https://sourceforge.net/projects/hibernate/
+
+Descompactar
+
+Pegar todas as bibliotecas que estão em:
+/libs/required/ e colar na pasta na pasta libs to projeto
+
+Dentro do Eclipse, navegue até a pasta que contém os arquivos:
+- Selecione todos
+- Botão direito > Build Path > Add to build path
