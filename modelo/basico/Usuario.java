@@ -1,11 +1,18 @@
 package modelo.basico;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 /*
  * @Entity é usada para relacionar a classe com uma tabela no banco de dados
  * @Id define qual atributo será chave primária
+ * 
+ * @GeneratedValue define auto incremento. Sem parâmetros ela usará a
+ * estratégia AUTO/SEQUENCE, que compartilha o Id com outras tabelas através da
+ * criação de uma tabela adicional para controlar o próximo Id. Para ter um Id
+ * único para cada tabela, usar strategy = GenerationType.IDENTITY
  * 
  * As colunas seguem padrões que já foram estabelecidos, como mesmo nome.
  * Para trocar isso ou adicionar restrições usamos @Column. Exemplo:
@@ -21,7 +28,7 @@ import javax.persistence.Id;
 @Entity
 public class Usuario {
 
-	@Id
+	@Id @GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String nome;
 	private String email;
