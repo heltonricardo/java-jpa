@@ -14,9 +14,9 @@ public class AlterarUsuario2 {
 	 * é essa característica que diferencia e ocasiona esse comportamento.
 	 * Os dados alterados nos objetos também serão alterados no banco, isso
 	 * quer dizer que esse programa, quando executado, alterará o nome do
-	 * usuário cujo Id é 1 para "Nome alterado". A seguir veremos como é
-	 * possível desativar essa sincronização automática, e fazê-la somente
-	 * de forma manual.
+	 * usuário cujo Id é 1 para "Nome alterado". A seguir, em AlterarUsuario3,
+	 * veremos como é possível desativar essa sincronização automática, e
+	 * fazê-la somente de forma manual.
 	 */
 
 	public static void main(String[] args) {
