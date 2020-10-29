@@ -50,8 +50,8 @@ public class DAO<E> {
 		return this;
 	}
 	
-	public DAO<E> incluirAtomico(E entidade) {
-		return this.abrirTransacao().incluir(entidade).fecharTransacao();
+	public DAO<E> incluirAtomico(E objeto) {
+		return this.abrirTransacao().incluir(objeto).fecharTransacao();
 	}
 	
 	public List<E> obterTodos(int quantidade, int deslocamento) {
