@@ -25,5 +25,7 @@ public class ObterProdutos {
 				.doubleValue();
 		
 		System.out.printf("Preço total: R$ %.2f", pretoTotal);
+		
+		dao.fechar();
 	}
 }
