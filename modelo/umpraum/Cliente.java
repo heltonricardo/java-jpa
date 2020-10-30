@@ -18,8 +18,8 @@ import javax.persistence.Table;
  * as persistências de objetos relacionados a ele automaticamente. É possível
  * usar cascade = {CascadeType.PERSIST, CascadeType.MERGE} para atualizar na
  * criação e alteração (então separa com vírgulas). No caso de somente uma
- * propriedade, o uso é como abaixo, cascade = CascadeType.ALL, usado para
- * todas as operações existentes.
+ * propriedade, o uso é como abaixo. Também existe o CascadeType.ALL, usado
+ * para todas as operações existentes.
  */
 
 @Entity
@@ -31,7 +31,7 @@ public class Cliente {
 	
 	private String nome;
 	
-	@OneToOne(cascade = CascadeType.ALL)
+	@OneToOne(cascade = CascadeType.PERSIST)
 	@JoinColumn(name = "assento_id", unique = true)
 	private Assento assento;
 	
