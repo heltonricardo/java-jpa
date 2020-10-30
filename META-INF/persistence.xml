@@ -8,6 +8,9 @@
 		
 		<class>modelo.basico.Usuario</class>
 		<class>modelo.basico.Produto</class>
+		
+		<class>modelo.umpraum.Assento</class>
+		<class>modelo.umpraum.Cliente</class>
         
         <properties>
         
