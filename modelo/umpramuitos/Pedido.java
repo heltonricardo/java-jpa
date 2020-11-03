@@ -30,7 +30,9 @@ import javax.persistence.Table;
  * mas se forem muitos dados, pode haver demora já que esse instrumento pode
  * ser usado recursivamente entre as dependências de cada entidade. É
  * importante salientar que no caso de LAZY, o EntityManager ainda deve estar
- * aberto para que consiga trazer os dados de forma tardia.
+ * aberto para que consiga trazer os dados de forma tardia. Nesse caso
+ * específico foi julgado que, na maioria das vezes, sempre que consultarmos
+ * um pedido também iremos consultar seus respectivos itens.
  */
 
 @Entity
