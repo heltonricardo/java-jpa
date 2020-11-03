@@ -11,9 +11,12 @@
 		
 		<class>modelo.umpraum.Assento</class>
 		<class>modelo.umpraum.Cliente</class>
+		
+		<class>modelo.umpramuitos.Pedido</class>
+		<class>modelo.umpramuitos.ItemPedido</class>
         
         <properties>
-        
+       
             <property name="javax.persistence.jdbc.driver"
                 	  value="com.mysql.jdbc.Driver"/>
                 	  
