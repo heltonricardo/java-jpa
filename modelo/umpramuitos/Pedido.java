@@ -28,7 +28,9 @@ import javax.persistence.Table;
  * automaticamente. Quando o EAGER está ativado, os dados dos relacionamentos
  * são trazidos NA MESMA PESQUISA que os da entidade principal (mais rápido),
  * mas se forem muitos dados, pode haver demora já que esse instrumento pode
- * ser usado recursivamente entre as dependências de cada entidade.
+ * ser usado recursivamente entre as dependências de cada entidade. É
+ * importante salientar que no caso de LAZY, o EntityManager ainda deve estar
+ * aberto para que consiga trazer os dados de forma tardia.
  */
 
 @Entity
