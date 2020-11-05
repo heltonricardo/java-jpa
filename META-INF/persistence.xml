@@ -14,6 +14,9 @@
 		
 		<class>modelo.umpramuitos.Pedido</class>
 		<class>modelo.umpramuitos.ItemPedido</class>
+		
+		<class>modelo.muitospramuitos.Tio</class>
+		<class>modelo.muitospramuitos.Sobrinho</class>
         
         <properties>
        
