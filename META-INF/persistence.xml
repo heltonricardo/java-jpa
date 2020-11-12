@@ -23,6 +23,10 @@
 		<class>modelo.muitospramuitos.Ator</class>
 		<class>modelo.muitospramuitos.Filme</class>
         
+		<class>modelo.composicao.Endereco</class>
+		<class>modelo.composicao.Fornecedor</class>
+		<class>modelo.composicao.Funcionario</class>
+        
         <properties>
        
             <property name="javax.persistence.jdbc.driver"
@@ -41,7 +45,7 @@
             <property name="hibernate.dialect"
                       value="org.hibernate.dialect.MySQL57Dialect"/>
                       
-            <property name="hibernate.show_sql" value="false"/>
+            <property name="hibernate.show_sql" value="true"/>
             
             <property name="hibernate.format_sql" value="true"/>
             
