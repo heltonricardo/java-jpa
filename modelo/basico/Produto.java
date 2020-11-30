@@ -12,17 +12,17 @@ import javax.persistence.Table;
 public class Produto {
 	
 	/*
-	 * É possível usar nomes diferentes na classe e na entidade através da
-	 * notation @Table 
+	 * Ã‰ possÃ­vel usar nomes diferentes na classe e na entidade atravÃ©s da
+	 * propriedade name da notaÃ§Ã£o @Table. 
 	 * 
-	 * O padrão do length é 255 para string. Se o JPA criar a tabela, ele usará
-	 * os padrões definidos nas anotações, mas se caso o banco já existir, o
-	 * JPA não alterará as tabelas e nem aplicará uma verificação nos dados.
-	 * Portanto, essas notations servem somente para o caso da criação do banco
-	 * e auxiliam na geração da documentação.
+	 * O padrÃ£o do length Ã© 255 para string. Se o JPA criar a tabela, ele usarÃ¡
+	 * os padrÃµes definidos nas anotaÃ§Ãµes, mas se caso o banco jÃ¡ existir, o
+	 * JPA nÃ£o alterarÃ¡ as tabelas e nem aplicarÃ¡ uma verificaÃ§Ã£o nos dados.
+	 * Portanto, essas notations servem somente para o caso da criaÃ§Ã£o do banco
+	 * e auxiliam na geraÃ§Ã£o da documentaÃ§Ã£o.
 	 * 
-	 * Precision: quantidade total de dígitos em um número (inteira + decimal)
-	 * Scale: quantidade de casas decimais. Então a parte inteira será igual a
+	 * Precision: quantidade total de dÃ­gitos em um nÃºmero (inteira + decimal)
+	 * Scale: quantidade de casas decimais. EntÃ£o a parte inteira serÃ¡ igual a
 	 * precision menos scale.
 	 */
 
