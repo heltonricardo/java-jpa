@@ -1,10 +1,12 @@
-Fazer download do Hibernate:
-https://sourceforge.net/projects/hibernate/
+Fazer download do Hibernate ORM:
+https://sourceforge.net/projects/hibernate/files/hibernate-orm/
+Não use o botão de download verde do site. Entre na pasta da versão desejada e
+baixe o arquivo zip.
 
 Descompactar
 
 Pegar todas as bibliotecas que estão em:
-/libs/required/ e colar na pasta na pasta libs to projeto
+/lib/required/ e colar na pasta na pasta libs to projeto
 
 Dentro do Eclipse, navegue até a pasta que contém os arquivos:
 - Selecione todos
