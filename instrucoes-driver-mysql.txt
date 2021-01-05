@@ -1,10 +1,15 @@
-É necessário fazer o download do driver do MYSQL para JAVA.
+DisponÃ­vel em:
+https://downloads.mysql.com/archives/c-j/
 
-Nesse projeto foi usada a versão:
+- Selecione a versÃ£o desejava e em OP escolha Platform Independent
+
+- Baixe o arquivo zip e o descompacte.
+
+- Copie o arquivo mysql-connector-java-8.0.20.jar para uma pasta dentro do
+  projeto
+
+Dentro do Eclipse, navegue atÃ© a pasta que contÃ©m o driver:
+- BotÃ£o direito no driver > Build Path > Add to build path
+
+Nesse projeto foi usada a seguinte versÃ£o:
 Connector/J 8.0.21 Platform Independent (Architecture Independent), ZIP Archive
-Disponível em: https://dev.mysql.com/downloads/connector/j/
-
-- Colocar o arquivo mysql-connector-java-8.0.20.jar em uma pasta dentro do projeto
-
-Dentro do Eclipse, navegue até a pasta que contém o driver:
-- Botão direito no driver > Build Path > Add to build path
